@@ -1,0 +1,15 @@
+- had to fiddle with each CSS item to ensure my colors were accurate
+- the images are better when you use px or actual measurements rather than a percent. otherwise they tend to take on attributes of the window
+- attempted to make the background image a little transparent and realized since i was applying the class to the body tag, it would make anything in the BODY transparent not the image.
+
+
+
+
+800 x 550 is the size of the image
+
+400 x 225
+
+200 x 112.5
+
+fonts: headers and text: #3e226b
+hover color: rgba(152, 117, 216, 0.75)
