@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Web Design Challenge - Home</title>
+    <title>Web Design Challenge - Cloudiness</title>
 
     <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" media="screen">
 
     <!-- Our own CSS stylesheet -->
-    <link rel="stylesheet" href="css/styles.css" media="screen">
+    <link rel="stylesheet" href="../css/styles.css" media="screen">
 
   </head>
 
-  <body class="index-background">
+  <body>
     <!-- Start of navbar -->
     <nav class="navbar navbar-default">
       <div class="container-fluid navbar-custom">
@@ -30,10 +30,9 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            
             <div class="col-xs-9 phone-nav">
               <a class="navbar-brand" href="#" id="logo">Latitude</a>
-            </div><a href="index.html"> <img src="images/square kai-smol.png" width="60px"></a>
+            </div><a href="../index.html"> <img src="../images/square kai-smol.png" width="60px" class="pull-left"> </a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -42,14 +41,14 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="visualizations/temp.html">Max Temperature</a></li>
-                  <li><a href="visualizations/humidity.html">Humidity</a></li>
-                  <li><a href="visualizations/cloudiness.html">Cloudiness</a></li>
-                  <li><a href="visualizations/wind.html">Wind Speed</a></li>
+                 <li><a href="../visualizations/temp.html">Max Temperature</a></li>
+                  <li><a href="../visualizations/humidity.html">Humidity</a></li>
+                  <li><a href="../visualizations/cloudiness.html">Cloudiness</a></li>
+                  <li><a href="../visualizations/wind.html">Wind Speed</a></li>
                 </ul>
               </li>
-              <li><a href="comparison.html">Comparison</a></li>
-              <li><a href="data.html">Data</a></li>
+              <li><a href="../comparison.html">Comparison</a></li>
+              <li><a href="../data.html">Data</a></li>
               <li><a href="https://github.com/ladywyntir/Web-Design-Challenge" target="_blank">My GitHub</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
@@ -70,11 +69,13 @@
             <div class="col-lg-7 col-md-12">
                 <div class="landing-box">
                 <!-- first row : first column -->
-                <H1>Summary: Latitude vs. X</h1>
+                <H1>Latitude vs. Cloudiness</h1>
                 <hr>
-                <img id="description-image" src="images/Fig1.png" alt="Latitude vs. Max Temperature chart">
-                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-                <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: Temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                <img src="../images/Fig3.png" alt="Latitude vs. Cloudiness chart"><hr>
+                <p>The report of Cloudiness seemed to span from one extreme to the other, as shown by the clusters at 0% and 100% chance of clouds.
+                A 0% chance of clouds seemed to favor cities between latitudes -40 to -20 and then from 20 to 40 degrees. A 100% chance of clouds 
+                seemed to cluster fairly consistantly from -10 degrees to 75 degrees.
+                </p>
                 </div>
             </div>
 
@@ -85,14 +86,14 @@
                     <hr>
                     <p>Click the charts below to navigate to each visualization.</p>
                     <center>
-                    <a href="visualizations/temp.html">
-                        <img src="images/Fig1.png" class="imageNav-photo" title="Max Temperature" alt="City Latitude vs. Max Temperature (2022-11-03)"></a>
-                    <a href="visualizations/humidity.html">
-                        <img src="images/Fig2.png" class="imageNav-photo" title="Humidity" alt="City Latitude vs. Humidity (2022-11-03)"></a><br><br>
-                    <a href="visualizations/cloudiness.html">
-                        <img src="images/Fig3.png" class="imageNav-photo" title="Cloudiness" alt="City Latitude vs. Cloudiness (2022-11-03)"></a>
-                    <a href="visualizations/wind.html">
-                            <img src="images/Fig4.png" class="imageNav-photo" title="Wind Speed" alt="City Latitude vs. Wind Speed (2022-11-03)"></a><br><br>
+                    <a href="temp.html">
+                        <img src="../images/Fig1.png" class="imageNav-photo" title="Max Temperature" alt="City Latitude vs. Max Temperature (2022-11-03)"></a>
+                    <a href="humidity.html">
+                        <img src="../images/Fig2.png" class="imageNav-photo" title="Humidity" alt="City Latitude vs. Humidity (2022-11-03)"></a><br><br>
+                    <a href="cloudiness.html">
+                        <img src="../images/Fig3.png" class="imageNav-photo" title="Cloudiness" alt="City Latitude vs. Cloudiness (2022-11-03)"></a>
+                    <a href="wind.html">
+                            <img src="../images/Fig4.png" class="imageNav-photo" title="Wind Speed" alt="City Latitude vs. Wind Speed (2022-11-03)"></a><br><br>
                     </center>
                     </div>
                 </div>

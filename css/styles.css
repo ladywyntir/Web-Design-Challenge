@@ -16,12 +16,12 @@ body {
   color: #3e226b;
 
   /* Visual */
-  /*background-color: #ededed;*/
+  background-color: rgba(152, 117, 216, 0.25);
   
 }
 
 .index-background {
-  background-image: url("images/vecteezy-home-background-dark.jpg");
+  background-image: url("/images/vecteezy-home-background-dark.jpg");
   background position: center;
   background-repeat: repeat;
   background-size: 100%;
@@ -67,7 +67,7 @@ background-attachment: fixed;
   padding-bottom: 5px;
 
   /* Positioning */
-  margin-left: 70px;
+  margin-left: 30px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   /* Typography */
